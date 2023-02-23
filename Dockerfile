@@ -3,7 +3,7 @@ FROM python:3.11.1-slim-bullseye
 ENV VIRTUAL_ENV=/opt/venv
 RUN python3.11 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
-WORKDIR /bypass
+WORKDIR /bypass-render
 ENV TZ=Asia/Kolkata PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1
 RUN apt-get update && apt-get upgrade -y
 RUN python3.11 -m pip install -U pip
