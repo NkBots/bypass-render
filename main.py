@@ -20,9 +20,9 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 pbot = Client(
     "bypasserbot",
-    api_id=,
-    api_hash="",
-    bot_token="",
+    api_id=27639102,
+    api_hash="35142c1407be6264e68fb6bec5dcabd9",
+    bot_token="5849898091:AAHszi6CeiWJsDLUjWI4oBdtM5s64_0fKJU",
 )
 drivebuzz_crypt = ""
 drivefire_crypt = ""
@@ -36,7 +36,7 @@ appdrive_password = ""
 hubdrive_crypt = ""
 sharerpw_xsrf_token = ""
 sharerpw_laravel_session = ""
-channel_id = -1001601615641
+channel_id = -1001572524138
 http = AsyncClient(http2=True, timeout=Timeout(10.0))
 try:
     loop = get_event_loop()
@@ -214,9 +214,9 @@ async def start(_: pbot, m: Message):
 You just need to send me the message containing the links! I will replace the un shorted link and send you back!
 Do wait for 10 seconds for each link to process and bypass after sending the links!
 
-**Support: @GreyMatter_Bots!**
+**Support: @VJ_Bots!**
 
-**Subscribe: https://youtube.com/@GreyMattersYT**""")
+**Subscribe: https://youtube.com/@movietimeguru6265**""")
     return
 
 
@@ -228,7 +228,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                            ChatMemberStatus.RESTRICTED):
             await cmd.reply_text(
                 text=
-                "Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/greymatters_bots_discussion).",
+                "Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/vj_bot_disscussion).",
                 disable_web_page_preview=True,
             )
             return 0
@@ -241,7 +241,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton(
                             "🤖 Join Updates Channel",
-                            url="t.me/GreyMatter_Bots",
+                            url="https://t.me/+uISNI3gUeRAzYWE9",
                         )
                     ],
                 ]),
@@ -256,7 +256,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await cmd.reply_text(
             text=
-            "Something went Wrong! Contact my [Support Group](https://t.me/greymatters_bots_discussion)",
+            "Something went Wrong! Contact my [Support Group](https://t.me/vj_bot_disscussion)",
             disable_web_page_preview=True,
         )
         return 0
