@@ -20,9 +20,9 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 pbot = Client(
     "bypasserbot",
-    api_id=27639102,
-    api_hash="35142c1407be6264e68fb6bec5dcabd9",
-    bot_token="5849898091:AAHszi6CeiWJsDLUjWI4oBdtM5s64_0fKJU",
+    api_id= 27639102,
+    api_hash= "35142c1407be6264e68fb6bec5dcabd9",
+    bot_token= "5849898091:AAHszi6CeiWJsDLUjWI4oBdtM5s64_0fKJU",
 )
 drivebuzz_crypt = ""
 drivefire_crypt = ""
@@ -241,7 +241,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton(
                             "🤖 Join Updates Channel",
-                            url="https://t.me/+uISNI3gUeRAzYWE9",
+                            url="t.me/+uISNI3gUeRAzYWE9",
                         )
                     ],
                 ]),
