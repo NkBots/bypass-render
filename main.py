@@ -241,7 +241,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton(
                             "🤖 Join Updates Channel",
-                            url="t.me/+uISNI3gUeRAzYWE9",
+                            url="https://t.me/VJ_Botz",
                         )
                     ],
                 ]),
