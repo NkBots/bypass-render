@@ -527,7 +527,7 @@ async def anonfiles_bypass(anonfiles_url: str) -> str:
 async def antfiles_bypass(antfiles_url: str) -> str:
     soup = BeautifulSoup((await Httpx.get(antfiles_url)).content,
                          "html.parser")
-    if a := soup.find(class_="main-btn", href=True):
+    if a = soup.find(class_="main-btn", href=True):
         return "{0.scheme}://{0.netloc}/{1}".format(urlparse(antfiles_url),
                                                     a["href"])
     return ""
