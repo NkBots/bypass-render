@@ -528,10 +528,7 @@ async def antfiles_bypass(antfiles_url: str) -> str:
     soup = BeautifulSoup((await Httpx.get(antfiles_url)).content,
                          "html.parser")
     
-        return "{0.scheme}://{0.netloc}/{1}".format(urlparse(antfiles_url),
-                                                    a["href"])
-    return ""
-
+        
 
 async def fichier_bypass(url: str) -> str:
     client = Session()
