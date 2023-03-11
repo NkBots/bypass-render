@@ -1579,8 +1579,7 @@ async def processor(c: Client, m: Message):
     links = await parselinks(m)
     if not links:
         return
-    if not await handle_force_sub(c, m):
-        return
+
     preserved = m.text or m.caption
     wk = 0
     for link in links:
