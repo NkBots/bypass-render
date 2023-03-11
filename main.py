@@ -22,7 +22,7 @@ pbot = Client(
     "bypasserbot",
     api_id= 27639102,
     api_hash= "35142c1407be6264e68fb6bec5dcabd9",
-    bot_token= "5849898091:AAHszi6CeiWJsDLUjWI4oBdtM5s64_0fKJU",
+    bot_token= "6275139213:AAHppqxiN5ipKgtvSXrpmTASMVij8aIa6NQ",
 )
 drivebuzz_crypt = ""
 drivefire_crypt = ""
@@ -241,7 +241,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton(
                             "🤖 Join Updates Channel",
-                            url="https://t.me/VJ_Botz",
+                            url="https://t.me/Nkbots",
                         )
                     ],
                 ]),
@@ -256,7 +256,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await cmd.reply_text(
             text=
-            "Something went Wrong! Contact my [Support Group](https://t.me/vj_bot_disscussion)",
+            "Something went Wrong! Contact my [Support Group](https:/t.me/NkbotsSupport)",
             disable_web_page_preview=True,
         )
         return 0
